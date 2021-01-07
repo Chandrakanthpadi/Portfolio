@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  pointer-events: none;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: #312421;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3vw;
+}
+
+.container .name {
+  color: tomato;
+  margin: 0 3vw;
+  font-size: 6vw;
+}
+
+.container div {
+  margin: 0 3vw;
+}
+
+.role {
+  color: tomato;
+  font-size: 3vw;
+  margin: 0 3vw;
+}
+
+.designation {
+  margin: 100px 0;
+}
+
+.contact {
+  position: absolute;
+  background-color: brown;
+  color: darkgray;
+  font-family: "Raleway", sans-serif;
+  padding: 8px 30px;
+  top: 85vh;
+  left: 85vw;
+  font-size: 1.5vw;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contact:hover {
+  background-color: #312421;
+  color: tomato;
+  cursor: pointer;
+  border-radius: 8px;
+}
+/*# sourceMappingURL=styles.css.map */
