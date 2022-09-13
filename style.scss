@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code", monospace;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
+.description {
+  width: 35ch;
+  text-align: center;
+  line-height: 150%;
+  font-size: clamp(1rem, 2.4vw, 2.7rem);
+  font-weight: bold;
+}
+
+.footer {
+  p {
+    text-align: center;
+    font-size: 1rem;
+    font-size: clamp(1rem, 1vw, 1rem);
+    font-weight: 400;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.6rem;
+    a {
+      margin: 0 0.6rem;
+    }
+  }
+}
