@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Fira Code", monospace;
+  
 }
 
 body {
@@ -17,6 +18,9 @@ body {
   text-align: center;
   margin-top: 4rem;
   font-size: clamp(1rem, 3vw, 2rem);
+  background-color: darkcyan;
+  padding:0.2rem 2rem;
+  color: #fff;
 }
 
 .description {
